@@ -1,0 +1,143 @@
+:root{
+     --blue: hsl(223, 87%, 63%);
+     --paleblue: hsl(223, 100%, 88%);
+     --lightred: hsl(354, 100%, 66%);
+     --gray: hsl(0, 0%, 59%);
+     --very-dark-blue: hsl(209, 33%, 12%);
+     
+ }
+ .attribution { font-size: 11px; text-align: center; }
+ .attribution a { color: hsl(228, 45%, 44%); }
+
+
+	body{
+		width: 100%;
+		font-size: 20px;
+		font-family: 'Libre Franklin', sans-serif;
+		text-align: center;
+		}
+  img{
+		width: 100%;
+		height: auto;
+	}
+	.logo{
+		width: 15%;
+		margin: 0 auto;
+		padding: 3em 0 1.5em 0;
+	}
+	.all{
+		max-width: 23.438em;
+		margin: 0 auto;
+	}
+	.header{
+		font-size: 1.7rem;
+		font-weight: 300;
+		margin: 0;
+		color: var(--gray);
+	}
+	span{
+		font-weight: 700;
+		color: var(--very-dark-blue);
+	}
+	.headerP{
+		font-size: 0.7rem;
+		margin-top: 1.5em;
+	}
+	form{
+		margin: 2em 0 3.5em 0;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.email{
+		border-radius: 50px;
+		border: 2px solid var(--gray);
+		padding: 0.625rem 0 0.625rem;
+		margin: 0 auto;
+		margin-bottom: 1em;
+		width: 92%;
+	}
+	.emailAfterText{
+		margin: 0;
+	}
+	#hide{
+		color: var(--lightred);
+		font-size: 0.7rem;
+		text-align: left;
+		display: none;
+		margin: 0 0 0 2em;
+		padding: 0;
+	}
+	#submitBtn{
+		text-decoration: none;
+		border: none;
+		display: inline-block;
+		border-radius: 	3.125rem;
+		font-size: 0.7rem;
+		background: var(--blue);
+		color: #fff;
+		font-weight: 600;
+		padding: 0.625rem 0 0.625rem;
+		margin: 0 auto;
+		width: 92%;
+	}
+	#submitBtn:hover, #submitBtn:focus{
+		background: var(--paleblue)
+	}
+	footer{
+		margin-top: 4em;
+	}
+	.fab{
+		color: var(--blue);
+		margin-right: 1em;
+		padding: 0.3125rem;
+		border: 1px solid var(--paleblue);
+		border-radius: 	3.125rem;
+	}
+	.socials p{
+	color: var(--gray);
+	font-size: 1rem;
+	}
+	
+	@media (min-width: 1440px){
+		body{
+			width: 100%;
+		}
+		.all{
+			max-width: 56.25em;
+			margin: 0 auto;
+		}
+		.logo{
+			width: 10%;
+			padding-bottom: 1em;
+		}
+		.header{
+			font-size: 4rem;
+		}
+		.headerP{
+			font-size: 1.7rem;
+			margin-top: 0.5em;
+		}
+
+		form{
+			width: 80%;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			margin: 0 auto;
+		}
+		#emailInput{
+		padding: 1.3em;
+		width: 30rem;
+		margin: 1em;
+				}
+	#submitBtn{
+		padding: 1.3rem;
+		font-size: 1rem;
+		width: 30%;
+	}
+	.img-div{
+		padding: 10rem 0 5rem;
+	}
+	}
